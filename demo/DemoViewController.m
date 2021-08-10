@@ -207,7 +207,7 @@
         [self.friendListView refreshStart];
         urls = @[@"https://dimanyen.github.io/friend3.json"];
     }
-    [self marginFriendItem:items];
+    [self merginFriendItem:items];
     
     if(idx < [urls count]) {
         
@@ -224,7 +224,7 @@
     }
 }
 
--(void) marginFriendItem:(NSArray *) items {
+-(void) merginFriendItem:(NSArray *) items {
     if(items != nil) {
         for(id item in items) {
             FriendData *data = [FriendData setData:item];
@@ -253,7 +253,7 @@
 }
 
 -(void) setFriendList:(NSArray *) items {
-    //NSLog(@"%@", items);
+    
     [self.friendTabView setFriendCountValue:[friendInviteItems count]];
     
     if([friendInviteItems count] == 0) {

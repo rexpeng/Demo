@@ -103,7 +103,7 @@
 }
 
 -(void) expandViews {
-    int y=10;
+    //int y=10;
     int x=30;
     int idx=0;
     int viewHeight = 70;
