@@ -8,20 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		CDE5B20F26BF5F59004C4274 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE5B20E26BF5F59004C4274 /* AppDelegate.m */; };
-		CDE5B21226BF5F59004C4274 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE5B21126BF5F59004C4274 /* SceneDelegate.m */; };
 		CDE5B21526BF5F59004C4274 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE5B21426BF5F59004C4274 /* ViewController.m */; };
 		CDE5B21826BF5F59004C4274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE5B21626BF5F59004C4274 /* Main.storyboard */; };
 		CDE5B21A26BF5F5A004C4274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE5B21926BF5F5A004C4274 /* Assets.xcassets */; };
 		CDE5B21D26BF5F5A004C4274 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE5B21B26BF5F5A004C4274 /* LaunchScreen.storyboard */; };
 		CDE5B22026BF5F5A004C4274 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE5B21F26BF5F5A004C4274 /* main.m */; };
+		CDE5B23526BF741C004C4274 /* MainTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE5B23426BF741C004C4274 /* MainTabViewController.m */; };
+		CDE5B23F26BF8208004C4274 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE5B23D26BF8208004C4274 /* DemoViewController.m */; };
+		CDE5B24026BF8208004C4274 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDE5B23E26BF8208004C4274 /* DemoViewController.xib */; };
+		CDE5B24726BF9090004C4274 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE5B24626BF9090004C4274 /* Helper.m */; };
+		CDE5B24C26BF96EF004C4274 /* UserView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE5B24B26BF96EF004C4274 /* UserView.m */; };
+		CDE5B25026BF970A004C4274 /* UserView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDE5B24F26BF970A004C4274 /* UserView.xib */; };
+		CDE5B26026BFEC4D004C4274 /* UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE5B25F26BFEC4D004C4274 /* UserData.m */; };
+		CDE5B26A26BFF26F004C4274 /* NoFriendView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE5B26926BFF26F004C4274 /* NoFriendView.m */; };
+		CDE5B26D26BFF27E004C4274 /* NoFriendView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDE5B26C26BFF27E004C4274 /* NoFriendView.xib */; };
+		CDE5B27226C02881004C4274 /* FriendListView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE5B27126C02881004C4274 /* FriendListView.m */; };
+		CDE5B27526C028A4004C4274 /* FriendListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDE5B27426C028A4004C4274 /* FriendListView.xib */; };
+		CDE5B27926C03566004C4274 /* FriendData.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE5B27826C03566004C4274 /* FriendData.m */; };
+		CDE5B27D26C0543B004C4274 /* NavigateView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE5B27C26C0543B004C4274 /* NavigateView.m */; };
+		CDE5B28026C0544E004C4274 /* NavigateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDE5B27F26C0544E004C4274 /* NavigateView.xib */; };
+		CDE5B28426C056F1004C4274 /* FriendTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE5B28326C056F1004C4274 /* FriendTabView.m */; };
+		CDE5B28726C05701004C4274 /* FriendTabView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDE5B28626C05701004C4274 /* FriendTabView.xib */; };
+		CDE5B28D26C06056004C4274 /* FriendViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE5B28B26C06055004C4274 /* FriendViewCell.m */; };
+		CDE5B28E26C06056004C4274 /* FriendViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDE5B28C26C06055004C4274 /* FriendViewCell.xib */; };
+		CDE5B29326C0E322004C4274 /* FriendInviteListView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE5B29226C0E322004C4274 /* FriendInviteListView.m */; };
+		CDE5B29626C0E33E004C4274 /* FriendInviteListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDE5B29526C0E33E004C4274 /* FriendInviteListView.xib */; };
+		CDE5B29A26C0E632004C4274 /* FriendInviteView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE5B29926C0E632004C4274 /* FriendInviteView.m */; };
+		CDE5B29D26C0E646004C4274 /* FriendInviteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDE5B29C26C0E646004C4274 /* FriendInviteView.xib */; };
+		CDE5B2A126C10B2B004C4274 /* CountLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE5B2A026C10B2B004C4274 /* CountLabel.m */; };
+		CDE5B2A426C10B3D004C4274 /* CountLabel.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDE5B2A326C10B3D004C4274 /* CountLabel.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CDE5B20A26BF5F59004C4274 /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE5B20D26BF5F59004C4274 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CDE5B20E26BF5F59004C4274 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CDE5B21026BF5F59004C4274 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		CDE5B21126BF5F59004C4274 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		CDE5B21326BF5F59004C4274 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CDE5B21426BF5F59004C4274 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CDE5B21726BF5F59004C4274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,6 +50,44 @@
 		CDE5B21C26BF5F5A004C4274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDE5B21E26BF5F5A004C4274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDE5B21F26BF5F5A004C4274 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDE5B23326BF741C004C4274 /* MainTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabViewController.h; sourceTree = "<group>"; };
+		CDE5B23426BF741C004C4274 /* MainTabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabViewController.m; sourceTree = "<group>"; };
+		CDE5B23C26BF8208004C4274 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		CDE5B23D26BF8208004C4274 /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		CDE5B23E26BF8208004C4274 /* DemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
+		CDE5B24526BF9090004C4274 /* Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		CDE5B24626BF9090004C4274 /* Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		CDE5B24A26BF96EF004C4274 /* UserView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserView.h; sourceTree = "<group>"; };
+		CDE5B24B26BF96EF004C4274 /* UserView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserView.m; sourceTree = "<group>"; };
+		CDE5B24F26BF970A004C4274 /* UserView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserView.xib; sourceTree = "<group>"; };
+		CDE5B25E26BFEC4D004C4274 /* UserData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserData.h; sourceTree = "<group>"; };
+		CDE5B25F26BFEC4D004C4274 /* UserData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserData.m; sourceTree = "<group>"; };
+		CDE5B26826BFF26F004C4274 /* NoFriendView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoFriendView.h; sourceTree = "<group>"; };
+		CDE5B26926BFF26F004C4274 /* NoFriendView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoFriendView.m; sourceTree = "<group>"; };
+		CDE5B26C26BFF27E004C4274 /* NoFriendView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoFriendView.xib; sourceTree = "<group>"; };
+		CDE5B27026C02881004C4274 /* FriendListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendListView.h; sourceTree = "<group>"; };
+		CDE5B27126C02881004C4274 /* FriendListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendListView.m; sourceTree = "<group>"; };
+		CDE5B27426C028A4004C4274 /* FriendListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendListView.xib; sourceTree = "<group>"; };
+		CDE5B27726C03566004C4274 /* FriendData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendData.h; sourceTree = "<group>"; };
+		CDE5B27826C03566004C4274 /* FriendData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendData.m; sourceTree = "<group>"; };
+		CDE5B27B26C0543B004C4274 /* NavigateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigateView.h; sourceTree = "<group>"; };
+		CDE5B27C26C0543B004C4274 /* NavigateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigateView.m; sourceTree = "<group>"; };
+		CDE5B27F26C0544E004C4274 /* NavigateView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NavigateView.xib; sourceTree = "<group>"; };
+		CDE5B28226C056F1004C4274 /* FriendTabView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendTabView.h; sourceTree = "<group>"; };
+		CDE5B28326C056F1004C4274 /* FriendTabView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendTabView.m; sourceTree = "<group>"; };
+		CDE5B28626C05701004C4274 /* FriendTabView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendTabView.xib; sourceTree = "<group>"; };
+		CDE5B28A26C06055004C4274 /* FriendViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendViewCell.h; sourceTree = "<group>"; };
+		CDE5B28B26C06055004C4274 /* FriendViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendViewCell.m; sourceTree = "<group>"; };
+		CDE5B28C26C06055004C4274 /* FriendViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendViewCell.xib; sourceTree = "<group>"; };
+		CDE5B29126C0E322004C4274 /* FriendInviteListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendInviteListView.h; sourceTree = "<group>"; };
+		CDE5B29226C0E322004C4274 /* FriendInviteListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendInviteListView.m; sourceTree = "<group>"; };
+		CDE5B29526C0E33E004C4274 /* FriendInviteListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendInviteListView.xib; sourceTree = "<group>"; };
+		CDE5B29826C0E632004C4274 /* FriendInviteView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendInviteView.h; sourceTree = "<group>"; };
+		CDE5B29926C0E632004C4274 /* FriendInviteView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendInviteView.m; sourceTree = "<group>"; };
+		CDE5B29C26C0E646004C4274 /* FriendInviteView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendInviteView.xib; sourceTree = "<group>"; };
+		CDE5B29F26C10B2B004C4274 /* CountLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountLabel.h; sourceTree = "<group>"; };
+		CDE5B2A026C10B2B004C4274 /* CountLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountLabel.m; sourceTree = "<group>"; };
+		CDE5B2A326C10B3D004C4274 /* CountLabel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountLabel.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +120,10 @@
 		CDE5B20C26BF5F59004C4274 /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				CDE5B25D26BFEC2C004C4274 /* Model */,
+				CDE5B24926BF96C1004C4274 /* View */,
 				CDE5B20D26BF5F59004C4274 /* AppDelegate.h */,
 				CDE5B20E26BF5F59004C4274 /* AppDelegate.m */,
-				CDE5B21026BF5F59004C4274 /* SceneDelegate.h */,
-				CDE5B21126BF5F59004C4274 /* SceneDelegate.m */,
 				CDE5B21326BF5F59004C4274 /* ViewController.h */,
 				CDE5B21426BF5F59004C4274 /* ViewController.m */,
 				CDE5B21626BF5F59004C4274 /* Main.storyboard */,
@@ -72,8 +131,60 @@
 				CDE5B21B26BF5F5A004C4274 /* LaunchScreen.storyboard */,
 				CDE5B21E26BF5F5A004C4274 /* Info.plist */,
 				CDE5B21F26BF5F5A004C4274 /* main.m */,
+				CDE5B23326BF741C004C4274 /* MainTabViewController.h */,
+				CDE5B23426BF741C004C4274 /* MainTabViewController.m */,
+				CDE5B23C26BF8208004C4274 /* DemoViewController.h */,
+				CDE5B23D26BF8208004C4274 /* DemoViewController.m */,
+				CDE5B23E26BF8208004C4274 /* DemoViewController.xib */,
+				CDE5B24526BF9090004C4274 /* Helper.h */,
+				CDE5B24626BF9090004C4274 /* Helper.m */,
 			);
 			path = demo;
+			sourceTree = "<group>";
+		};
+		CDE5B24926BF96C1004C4274 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDE5B24A26BF96EF004C4274 /* UserView.h */,
+				CDE5B24B26BF96EF004C4274 /* UserView.m */,
+				CDE5B24F26BF970A004C4274 /* UserView.xib */,
+				CDE5B26826BFF26F004C4274 /* NoFriendView.h */,
+				CDE5B26926BFF26F004C4274 /* NoFriendView.m */,
+				CDE5B26C26BFF27E004C4274 /* NoFriendView.xib */,
+				CDE5B27026C02881004C4274 /* FriendListView.h */,
+				CDE5B27126C02881004C4274 /* FriendListView.m */,
+				CDE5B27426C028A4004C4274 /* FriendListView.xib */,
+				CDE5B27B26C0543B004C4274 /* NavigateView.h */,
+				CDE5B27C26C0543B004C4274 /* NavigateView.m */,
+				CDE5B27F26C0544E004C4274 /* NavigateView.xib */,
+				CDE5B28226C056F1004C4274 /* FriendTabView.h */,
+				CDE5B28326C056F1004C4274 /* FriendTabView.m */,
+				CDE5B28626C05701004C4274 /* FriendTabView.xib */,
+				CDE5B28A26C06055004C4274 /* FriendViewCell.h */,
+				CDE5B28B26C06055004C4274 /* FriendViewCell.m */,
+				CDE5B28C26C06055004C4274 /* FriendViewCell.xib */,
+				CDE5B29126C0E322004C4274 /* FriendInviteListView.h */,
+				CDE5B29226C0E322004C4274 /* FriendInviteListView.m */,
+				CDE5B29526C0E33E004C4274 /* FriendInviteListView.xib */,
+				CDE5B29826C0E632004C4274 /* FriendInviteView.h */,
+				CDE5B29926C0E632004C4274 /* FriendInviteView.m */,
+				CDE5B29C26C0E646004C4274 /* FriendInviteView.xib */,
+				CDE5B29F26C10B2B004C4274 /* CountLabel.h */,
+				CDE5B2A026C10B2B004C4274 /* CountLabel.m */,
+				CDE5B2A326C10B3D004C4274 /* CountLabel.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CDE5B25D26BFEC2C004C4274 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CDE5B25E26BFEC4D004C4274 /* UserData.h */,
+				CDE5B25F26BFEC4D004C4274 /* UserData.m */,
+				CDE5B27726C03566004C4274 /* FriendData.h */,
+				CDE5B27826C03566004C4274 /* FriendData.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +246,16 @@
 				CDE5B21D26BF5F5A004C4274 /* LaunchScreen.storyboard in Resources */,
 				CDE5B21A26BF5F5A004C4274 /* Assets.xcassets in Resources */,
 				CDE5B21826BF5F59004C4274 /* Main.storyboard in Resources */,
+				CDE5B28726C05701004C4274 /* FriendTabView.xib in Resources */,
+				CDE5B28E26C06056004C4274 /* FriendViewCell.xib in Resources */,
+				CDE5B29626C0E33E004C4274 /* FriendInviteListView.xib in Resources */,
+				CDE5B28026C0544E004C4274 /* NavigateView.xib in Resources */,
+				CDE5B29D26C0E646004C4274 /* FriendInviteView.xib in Resources */,
+				CDE5B26D26BFF27E004C4274 /* NoFriendView.xib in Resources */,
+				CDE5B24026BF8208004C4274 /* DemoViewController.xib in Resources */,
+				CDE5B27526C028A4004C4274 /* FriendListView.xib in Resources */,
+				CDE5B25026BF970A004C4274 /* UserView.xib in Resources */,
+				CDE5B2A426C10B3D004C4274 /* CountLabel.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,10 +266,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDE5B29326C0E322004C4274 /* FriendInviteListView.m in Sources */,
+				CDE5B26A26BFF26F004C4274 /* NoFriendView.m in Sources */,
+				CDE5B28426C056F1004C4274 /* FriendTabView.m in Sources */,
 				CDE5B21526BF5F59004C4274 /* ViewController.m in Sources */,
+				CDE5B27226C02881004C4274 /* FriendListView.m in Sources */,
+				CDE5B24726BF9090004C4274 /* Helper.m in Sources */,
+				CDE5B23526BF741C004C4274 /* MainTabViewController.m in Sources */,
+				CDE5B28D26C06056004C4274 /* FriendViewCell.m in Sources */,
+				CDE5B24C26BF96EF004C4274 /* UserView.m in Sources */,
 				CDE5B20F26BF5F59004C4274 /* AppDelegate.m in Sources */,
+				CDE5B27926C03566004C4274 /* FriendData.m in Sources */,
+				CDE5B23F26BF8208004C4274 /* DemoViewController.m in Sources */,
+				CDE5B26026BFEC4D004C4274 /* UserData.m in Sources */,
 				CDE5B22026BF5F5A004C4274 /* main.m in Sources */,
-				CDE5B21226BF5F59004C4274 /* SceneDelegate.m in Sources */,
+				CDE5B2A126C10B2B004C4274 /* CountLabel.m in Sources */,
+				CDE5B27D26C0543B004C4274 /* NavigateView.m in Sources */,
+				CDE5B29A26C0E632004C4274 /* FriendInviteView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,13 +428,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6VMACRJDJ6;
 				INFOPLIST_FILE = demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rexpeng.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,13 +447,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6VMACRJDJ6;
 				INFOPLIST_FILE = demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rexpeng.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NoFriendView">
+            <connections>
+                <outlet property="attrLabel" destination="fEV-tn-o17" id="CpW-HB-kVp"/>
+                <outlet property="button" destination="arQ-t3-5Cx" id="5Kd-7Z-lLh"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="dSa-WE-Ell"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgFriendsEmpty" translatesAutoresizingMaskIntoConstraints="NO" id="rTW-3Y-vJi">
+                    <rect key="frame" x="84.5" y="30" width="245" height="172"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="245" id="6Lv-Mi-rhp"/>
+                        <constraint firstAttribute="height" constant="172" id="y5w-WZ-2v4"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="就從加好友開始吧：）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n4M-Wb-2xK">
+                    <rect key="frame" x="85.5" y="243" width="243.5" height="29"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="與好友們一起用 KOKO 聊起來！ 還能互相收付款、發紅包喔：）" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sYK-ii-G8J">
+                    <rect key="frame" x="98.5" y="280" width="217.5" height="36"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.2784313725" green="0.2784313725" blue="0.2784313725" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="arQ-t3-5Cx">
+                    <rect key="frame" x="111" y="341" width="192" height="40"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="加好友" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uoH-PZ-wUO">
+                            <rect key="frame" x="70" y="9.5" width="52" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icAddFriendWhite" translatesAutoresizingMaskIntoConstraints="NO" id="SdJ-q9-1fb">
+                            <rect key="frame" x="160" y="8" width="24" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="24" id="AEu-aA-8va"/>
+                                <constraint firstAttribute="height" constant="24" id="qIz-oa-AXv"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.2784313725" green="0.2784313725" blue="0.2784313725" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="uoH-PZ-wUO" firstAttribute="centerY" secondItem="arQ-t3-5Cx" secondAttribute="centerY" id="SC9-hZ-zEo"/>
+                        <constraint firstItem="uoH-PZ-wUO" firstAttribute="centerX" secondItem="arQ-t3-5Cx" secondAttribute="centerX" id="Zdy-O1-Zzd"/>
+                        <constraint firstAttribute="trailing" secondItem="SdJ-q9-1fb" secondAttribute="trailing" constant="8" id="d6Z-Sa-RqO"/>
+                        <constraint firstItem="SdJ-q9-1fb" firstAttribute="centerY" secondItem="arQ-t3-5Cx" secondAttribute="centerY" id="dpz-BJ-YSm"/>
+                        <constraint firstAttribute="width" constant="192" id="ixN-DY-FAd"/>
+                        <constraint firstAttribute="height" constant="40" id="sQ3-Xe-5J6"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="幫助好友更快找到你？設定 KOKO ID" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fEV-tn-o17">
+                    <rect key="frame" x="83.5" y="418" width="247" height="18"/>
+                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                    <color key="textColor" red="0.2784313725" green="0.2784313725" blue="0.2784313725" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="rTW-3Y-vJi" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="2fy-wZ-feP"/>
+                <constraint firstItem="sYK-ii-G8J" firstAttribute="top" secondItem="n4M-Wb-2xK" secondAttribute="bottom" constant="8" id="8Vv-lv-4iH"/>
+                <constraint firstItem="n4M-Wb-2xK" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ETo-Za-EJh"/>
+                <constraint firstItem="fEV-tn-o17" firstAttribute="top" secondItem="arQ-t3-5Cx" secondAttribute="bottom" constant="37" id="LHL-gC-xx5"/>
+                <constraint firstItem="arQ-t3-5Cx" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="T89-vI-V9p"/>
+                <constraint firstItem="n4M-Wb-2xK" firstAttribute="top" secondItem="rTW-3Y-vJi" secondAttribute="bottom" constant="41" id="XPi-6o-rVu"/>
+                <constraint firstItem="rTW-3Y-vJi" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="30" id="jtv-6a-oGI"/>
+                <constraint firstItem="arQ-t3-5Cx" firstAttribute="top" secondItem="sYK-ii-G8J" secondAttribute="bottom" constant="25" id="nZY-tz-hQU"/>
+                <constraint firstItem="sYK-ii-G8J" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="pPo-EE-lmz"/>
+                <constraint firstItem="fEV-tn-o17" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="yPH-MI-VzQ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="121.73913043478262" y="68.973214285714278"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icAddFriendWhite" width="24" height="24"/>
+        <image name="imgFriendsEmpty" width="245" height="172"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

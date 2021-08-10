@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FriendListView">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="hd1-8L-ZF2"/>
+                <outlet property="searchAddBtn" destination="386-Tl-MBJ" id="t5k-PC-v4x"/>
+                <outlet property="searchField" destination="eVv-7Z-1B4" id="ADw-bg-e0p"/>
+                <outlet property="tableView" destination="tNy-dh-Zx7" id="hmV-Gl-erv"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eVv-7Z-1B4">
+                    <rect key="frame" x="30" y="15" width="314" height="34"/>
+                    <color key="backgroundColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <color key="textColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tNy-dh-Zx7">
+                    <rect key="frame" x="20" y="59" width="374" height="827"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <color key="separatorColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icBtnAddFriends" translatesAutoresizingMaskIntoConstraints="NO" id="386-Tl-MBJ">
+                    <rect key="frame" x="360" y="20.5" width="24" height="23"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="24" id="08G-5M-Yho"/>
+                        <constraint firstAttribute="height" constant="23" id="uTt-LL-k2c"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="tNy-dh-Zx7" secondAttribute="bottom" constant="10" id="4yj-97-fO3"/>
+                <constraint firstItem="386-Tl-MBJ" firstAttribute="centerY" secondItem="eVv-7Z-1B4" secondAttribute="centerY" id="9gy-qE-FTT"/>
+                <constraint firstAttribute="trailing" secondItem="tNy-dh-Zx7" secondAttribute="trailing" constant="20" id="C2G-Ld-bT1"/>
+                <constraint firstAttribute="trailing" secondItem="eVv-7Z-1B4" secondAttribute="trailing" constant="70" id="J4S-G4-YQX"/>
+                <constraint firstItem="tNy-dh-Zx7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="Lzj-bG-q1J"/>
+                <constraint firstItem="eVv-7Z-1B4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="SUZ-Tk-jWi"/>
+                <constraint firstItem="eVv-7Z-1B4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="Y1c-2w-AQ1"/>
+                <constraint firstAttribute="trailing" secondItem="386-Tl-MBJ" secondAttribute="trailing" constant="30" id="rLG-Bq-pvK"/>
+                <constraint firstItem="tNy-dh-Zx7" firstAttribute="top" secondItem="eVv-7Z-1B4" secondAttribute="bottom" constant="10" id="yfm-ag-5FI"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="121.73913043478262" y="68.973214285714278"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icBtnAddFriends" width="25" height="25"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
